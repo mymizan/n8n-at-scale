@@ -10,3 +10,4 @@ ENCRYPTION_KEY=changeEncryptionKey
 SUBDOMAIN=your_subdomain
 DOMAIN_NAME=your_domain_name
 SSL_EMAIL=your_email@example.com
+WEBHOOK_URL=https://example.com
