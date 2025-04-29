@@ -19,6 +19,7 @@ x-shared: &shared
     - QUEUE_HEALTH_CHECK_ACTIVE=true
     - N8N_ENCRYPTION_KEY=${ENCRYPTION_KEY}
     - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false
+    - WEBHOOK_URL=${WEBHOOK_URL}
   links:
     - postgres
     - redis
